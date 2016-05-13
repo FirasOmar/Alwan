@@ -1,0 +1,24 @@
+body
+{
+	font-family: helvetica;
+}
+.main_container
+{
+	/*direction: ltr;*/
+}
+h4.title,h5
+{
+    font-family: helvetica;
+}
+h1 {
+    font-size: 30px;
+    font-family: helvetica;
+}
+p {
+    line-height: 25px;
+}
+td {
+    padding: 16px;
+    vertical-align: top;
+    line-height: 25px;
+}

@@ -1,0 +1,14 @@
+<?php
+$lang_flag=$_GET['lang_flag'];
+$page2=$_GET['page2'];
+$page=$_GET['page'];
+//var_dump($page);
+//$page='index.php';
+if($lang_flag==='arabic'){
+	//$lang='arabic';
+	header("Location:$page?lang=$lang_flag&page=$page2&page2=$page");
+}else{
+	//$lang='english';
+	header("Location:$page?lang=$lang_flag&page=$page2&page2=$page");
+}
+?>
